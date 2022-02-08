@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Patua One', cursive;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    
+}
+
+.logo > a img {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.logo > a {
+    font-size: 2.1rem;
+    color: #FE646F;
+    text-decoration: none;
+}
+
+header > a {
+    margin-right: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    background-color: #FE646F;
+    border-radius: 5px;
+}
+
+header > a:hover {
+    background-color: #FEC165;
+}
+
+header > a img {
+    width: 20px;
+    height: auto;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-evenly;
+    background-color: #01D0FB;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav .enlace {
+    display: block;
+    flex: 4 1 300px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    padding: 15px 0;
+}
+
+nav .rrss {
+    display: block;
+    flex: 1 1 50px;
+    text-align: center;
+    align-self: baseline;
+    padding: 15px 0;
+}
+
+nav .enlace:hover {
+    background-color: #FEC165;
+}
+
+.rrss img {
+    width: 26px;
+    height: auto;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.rrss:hover img {
+    background-color: #FEC165;
+    border-radius: 50%;
+    width: 30px;
+    height: auto;
+}
+
+.separador {
+    border-top: 3px solid #01D0FB;
+    margin: 3px 0;
+    padding: 1px 0;
+    border-bottom: 2px solid #FEC165;
+}
+
+.barraBusqueda form, .campos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    border: 1px solid #717171;
+    width: 450px;
+    max-width: 30vw;
+    font-size: 1rem; 
+}
+
+.campos {
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #808080;
+}
+
+.uno {
+    border-radius: 5px 0 0 5px;
+}
+
+.dos {
+    border-radius: 0 5px 5px 0;
+}
+
+.campos img {
+    width: 28px;
+    height: auto;
+    margin-right:20px;
+}
+
+.barraBusqueda form input[type='text'] {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    max-width: 10vw;
+}
+
+.barraBusqueda form input[type='text']:focus {
+    border-bottom: 2px solid grey;
+}
+
+input[type="submit"] {
+    border: none;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: white;
+    background-color: #FE646F;
+    padding: 13px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type='submit']:hover {
+    background-color: #FEC165;
+}
+
+.buscador {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 15px;
+    padding: 15px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.tarjeta:hover {
+    background-color: #a3a3a354;
+    border-radius: 20px;
+}
+
+.tarjeta img {
+    width: 150px;
+    width: 150px;
+}
+
+.tarjeta > div * {
+    margin: 10px 0;
+}
+
+.tarjeta h1 {
+    color: #FE646F;
+}
+
+.tarjeta h2 {
+    color: #5F5F5F;
+    font-size: 1.2rem;
+}
+
+.tarjeta p {
+    color: #717171;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+footer > a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: grey
+}
+
+footer > a:hover {
+    background-color: grey;
+    color: white;
+}
