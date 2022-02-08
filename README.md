@@ -14,10 +14,10 @@ Para poder visualizar correctamente el prototipo, es necesario abrir desde el na
 
 ---
 
-![Captura1](.\screenshots\Captura.PNG?raw=true)
+![Captura1](https://github.com/DviadFer/css-prototype/blob/main/screenshots/Captura.PNG?raw=true)
 
-![Captura2](.\screenshots\Captura2.PNG?raw=true)
+![Captura2](https://github.com/DviadFer/css-prototype/blob/main/screenshots/Captura2.PNG?raw=true)
 
-![Captura3](.\screenshots\Captura3.PNG?raw=true)
+![Captura3](https://github.com/DviadFer/css-prototype/blob/main/screenshots/Captura3.PNG?raw=true)
 
-![Captura4](.\screenshots\Captura4.PNG?raw=true)
+![Captura4](https://github.com/DviadFer/css-prototype/blob/main/screenshots/Captura4.PNG?raw=true)
