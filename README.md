@@ -14,10 +14,10 @@ Para poder visualizar correctamente el prototipo, es necesario abrir desde el na
 
 ---
 
-![Captura1](.\screenshots\Captura.PNG)
+![Captura1](.\screenshots\Captura.PNG?raw=true)
 
-![Captura2](.\screenshots\Captura2.PNG)
+![Captura2](.\screenshots\Captura2.PNG?raw=true)
 
-![Captura3](.\screenshots\Captura3.PNG)
+![Captura3](.\screenshots\Captura3.PNG?raw=true)
 
-![Captura4](.\screenshots\Captura4.PNG)
+![Captura4](.\screenshots\Captura4.PNG?raw=true)
